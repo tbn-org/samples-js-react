@@ -12,7 +12,7 @@
 
 const CLIENT_ID = process.env.CLIENT_ID || '0oa2jxpbp7k9dAMBc1d7';
 const ISSUER = process.env.ISSUER || 'https://secure.tbnbackstage.com/oauth2/default';
-const API_URL = process.env.API_URL || 'https://showcase2.tbnbackstage.com:8000/api/messages';
+const API_URL = process.env.API_URL || 'https://showcase2.tbnbackstage.com/api/messages';
 const OKTA_TESTING_DISABLEHTTPSCHECK = process.env.OKTA_TESTING_DISABLEHTTPSCHECK || false;
 const BASENAME = process.env.PUBLIC_URL || '';
 const REDIRECT_URI = `${window.location.origin}${BASENAME}/login/callback`;
